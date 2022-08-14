@@ -1,0 +1,3 @@
+{
+  "*.{js,jsx,ts,tsx}": "npm rum prettier-format"
+}
