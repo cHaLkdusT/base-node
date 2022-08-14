@@ -1,0 +1,9 @@
+{
+  "name": "base-node",
+  "version": "0.0.1",
+  "description": "Base node project",
+  "main": "index.js",
+  "author": "cHaLkdusT",
+  "license": "MIT",
+  "private": true
+}
