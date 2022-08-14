@@ -17,6 +17,7 @@
     "@typescript-eslint/eslint-plugin": "^5.33.0",
     "@typescript-eslint/parser": "^5.33.0",
     "eslint": "^8.22.0",
+    "eslint-plugin-no-loops": "^0.3.0",
     "nodemon": "^2.0.19",
     "rimraf": "^3.0.2",
     "ts-node": "^10.9.1",
