@@ -12,7 +12,8 @@
     "start": "npm run build && node build/index.js",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
-    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/node": "^18.7.3",
@@ -24,6 +25,7 @@
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-no-loops": "^0.3.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.1",
     "nodemon": "^2.0.19",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
