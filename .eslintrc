@@ -2,7 +2,12 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint", "no-loops", "prettier"],
-  "extends": ["airbnb-base", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
   "rules": {
     "no-console": 1,
     "no-loops/no-loops": 2
