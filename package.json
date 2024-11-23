@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start:dev": "nodemon",
+    "start:dev": "npx nodemon",
     "build": "rimraf ./build && tsc",
     "start": "npm run build && node build/index.js",
     "lint": "eslint . --ext .ts",
@@ -25,10 +25,10 @@
     "eslint-plugin-prettier": "^5.0.0",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
-    "nodemon": "^3.0.1",
+    "nodemon": "3.1.7",
     "prettier": "^3.0.0",
     "rimraf": "^5.0.1",
-    "ts-node": "^10.9.1",
+    "ts-node": "10.9.2",
     "typescript": "5.7.2"
   }
 }
