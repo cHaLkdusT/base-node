@@ -6,8 +6,13 @@
   "author": "cHaLkdusT",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "start:dev": "npx nodemon"
+  },
   "devDependencies": {
     "@types/node": "24.10.1",
+    "nodemon": "3.1.11",
+    "ts-node": "10.9.2",
     "typescript": "5.9.3"
   }
 }
