@@ -12,7 +12,9 @@
     "start": "npm run build && node dist/index.js",
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix",
-    "prettier": "npx prettier . --write 'src/**/*.ts' --write"
+    "prettier": "npx prettier . --write 'src/**/*.ts' --write",
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
@@ -20,8 +22,10 @@
     "eslint": "9.39.1",
     "eslint-config-prettier": "10.1.8",
     "globals": "16.5.0",
+    "husky": "9.1.7",
     "jiti": "2.6.1",
     "nodemon": "3.1.11",
+    "onchange": "7.1.0",
     "prettier": "3.7.1",
     "rimraf": "6.1.2",
     "ts-node": "10.9.2",
