@@ -10,7 +10,8 @@
     "start:dev": "npx nodemon",
     "build": "rimraf dist && tsc",
     "start": "npm run build && node dist/index.js",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix"
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
