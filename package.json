@@ -14,7 +14,8 @@
     "lint-and-fix": "eslint . --ext .ts --fix",
     "prettier": "npx prettier . --write 'src/**/*.ts' --write",
     "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
-    "prepare": "husky"
+    "prepare": "husky",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
     "@eslint/js": "9.39.1",
@@ -24,6 +25,7 @@
     "globals": "16.5.0",
     "husky": "9.1.7",
     "jiti": "2.6.1",
+    "lint-staged": "16.2.7",
     "nodemon": "3.1.11",
     "onchange": "7.1.0",
     "prettier": "3.7.1",
