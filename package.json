@@ -6,6 +6,7 @@
   "author": "cHaLkdusT",
   "license": "MIT",
   "private": true,
+  "type": "module",
   "scripts": {
     "start:dev": "npx nodemon",
     "build": "rimraf dist && tsc",
@@ -30,7 +31,7 @@
     "onchange": "7.1.0",
     "prettier": "3.7.1",
     "rimraf": "6.1.2",
-    "ts-node": "10.9.2",
+    "tsx": "4.20.6",
     "typescript": "5.9.3",
     "typescript-eslint": "8.48.0"
   }
