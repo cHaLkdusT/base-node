@@ -4,6 +4,11 @@
     // File Layout
     "rootDir": "./src",
     "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@utils": ["utils/index.ts"],
+      "@utils/*": ["utils/*"]
+    },
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
@@ -35,7 +40,7 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",

@@ -1,4 +1,4 @@
-import { test } from "./utils/index.js";
+import { test } from "@utils";
 
 console.log("Hello, Base Node Project!");
 
